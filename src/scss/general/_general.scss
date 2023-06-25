@@ -1,0 +1,35 @@
+html{
+  font-size: 65.5%;
+  box-sizing: 0;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  background: #16005b;
+  font-size: 1.6rem;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #45505b;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cairo', sans-serif;
+}
+
+@media (min-width: 768px){
+  h1{
+    font-size: 3rem;
+  }
+}
+

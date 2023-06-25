@@ -1,0 +1,16 @@
+{
+  "name": "nuevo-javier",
+  "version": "1.0.0",
+  "description": "proyect",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss/style.scss src/css/style.css"
+  },
+  "author": "javier tovar",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0",
+    "bootstrap-icons": "^1.10.5",
+    "sass": "^1.63.6"
+  }
+}

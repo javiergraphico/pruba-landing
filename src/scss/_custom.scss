@@ -1,0 +1,36 @@
+//rescribir variables
+$morado: #5129d7;
+$azul: #16005b;
+$gris: #27293e;
+
+
+//asignar paleta de colores
+
+$primary:       $morado !default;
+$secondary:     $azul !default;
+$success:       $gris !default;
+
+
+$spacer: 2rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+);
+
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem
+) !default;
+
+
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss'
