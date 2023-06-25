@@ -16,35 +16,37 @@
   <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top bg-success">
-    <div class="container-xl">
-      <a class="navbar-brand" href="#hero"><img width="200" height="auto" src="src/img/javiergraphico-logo.png" alt="logo-javiergraphico"></a>
-      <button class="navbar-toggler text-bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="bi bi-text-center "></i>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item px-3 anime-1">
-            <a class="nav-link active text-white" aria-current="page" href="#hero">Home</a>
-          </li>
-          <li class="nav-item px-3 anime-2">
-            <a class="nav-link text-white" href="#services">Servicios</a>
-          </li>
-          <li class="nav-item px-3 anime-3">
-            <a class="nav-link text-white" href="#about">Sobre Mi</a>
-          </li>
-          <li class="nav-item px-3 anime-4">
-            <a class="nav-link text-white" href="#portfolio">Portafolio</a>
-          </li>
-          <li class="nav-item px-3 anime-5">
-            <a class="nav-link text-white" href="#contact">Contacto</a>
-          </li>
-          
-        </ul>
+  <header class="container-md container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top bg-success">
+      <div class="container-md container-sm">
+        <a class="navbar-brand" href="#hero"><img width="200" height="auto" src="src/img/javiergraphico-logo.png" alt="logo-javiergraphico"></a>
+        <button class="navbar-toggler text-bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-text-center "></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item px-3 anime-1">
+              <a class="nav-link active text-white" aria-current="page" href="#hero">Home</a>
+            </li>
+            <li class="nav-item px-3 anime-2">
+              <a class="nav-link text-white" href="#services">Servicios</a>
+            </li>
+            <li class="nav-item px-3 anime-3">
+              <a class="nav-link text-white" href="#about">Sobre Mi</a>
+            </li>
+            <li class="nav-item px-3 anime-4">
+              <a class="nav-link text-white" href="#portfolio">Portafolio</a>
+            </li>
+            <li class="nav-item px-3 anime-5">
+              <a class="nav-link text-white" href="#contact">Contacto</a>
+            </li>
+    
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!-- ======= Hero Section ======= -->
+    </nav>
+  </header>
+  <!-- Hero Section -->
   <section id="hero" class="d-flex flex-column justify-content-center">
     
       <div class="container">
@@ -60,14 +62,16 @@
       </div>
       
     
-  </section><!-- End Hero -->
+  </section>
+  
+  <!-- End Hero -->
   <main class="container-xl">
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container-xl py-5" data-aos="fade-up">
+    <section id="services" class="services py-3">
+      <div class="container-xl py-3" data-aos="fade-up">
 
-        <div class="section-title flex p-5">
-          <h2 class="text-center display-5 fw-bold p-5">Servicios</h2>
+        <div class="section-title flex p-3">
+          <h2 class="text-center display-5 fw-bold">Servicios</h2>
           <p class="display-4 text-white text-center">Puedo ayudarte con.</p>
         </div>
 
@@ -156,13 +160,15 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section>
 
-    <section id="about" class=" about py-5 bg-secondary">
+    <!-- End Services Section  -->
+
+    <section id="about">
       <div class="container-xl" data-aos="fade-up">
 
-        <div class="section-title flex p-5">
-          <h2 class="text-center display-5 fw-bold p-5">Me presento:</h2>
+        <div class="section-title">
+          <h2 class="text-center display-5 fw-bold p-3">Me presento:</h2>
           
         </div>
 
@@ -181,9 +187,11 @@
         </div>
 
       </div>
-    </section><!-- End About Section -->
+    </section>
+    <!-- End About Section -->
 
     <!-- ======= Portfolio Section ======= -->
+
     <section id="portfolio" class="portfolio section-bg py-5">
       <div class="container-xl" data-aos="fade-up">
 
@@ -319,7 +327,8 @@
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section>
+    <!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg py-5">
@@ -402,18 +411,19 @@
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>
+    <!-- End Testimonials Section -->
 
-    <section id="contact" class="contact">
-      <div class="container-xl p-5 " data-aos="fade-up">
+    <section id="contact" class="contact pt-5">
+      <div class="container-xl m-auto " data-aos="fade-up">
 
-        <div class="section-title flex p-5">
-          <h2 class="text-center display-5 fw-bold">Contacto</h2>
+        <div class="section-title flex">
+          <h2 class="text-center display-5 fw-bold py-5">Contacto</h2>
         </div>
 
-        <div class="row mt-1 justify-content-center justify-content-sm-around">
+        <div class="row justify-content-around">
 
-          <div class="col-lg-4 col-sm-3 py-lg-0 pb-5">
+          <div class="col-md-4 col-sm-12 py-lg-0">
             <div class="info">
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
@@ -426,18 +436,15 @@
                 <h4>Email:</h4>
                 <p>javieralexander31@gmail.com</p>
               </div>
-
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Telefono:</h4>
                 <p>+58 0412 866 1929</p>
               </div>
-
             </div>
-
           </div>
 
-          <div class="col-lg-4 col-sm-3">
+          <div class="col-md-4 col-sm-12 pb-4">
 
             <div class="">
               <div class="info">
@@ -467,7 +474,8 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section>
+    <!-- End Contact Section -->
   </main>
 
   <!-- ======= Footer ======= -->

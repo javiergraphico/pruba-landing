@@ -17,9 +17,9 @@ ScrollReveal().reveal('.navbar', {
  });
 
  ScrollReveal().reveal('.visual', { 
-  delay: 2000,
+  delay: 1500,
   origin: 'left',
-  distance: '-500px',
+  distance: '-100px',
   mobile: true
  });
 
